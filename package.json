@@ -1,0 +1,51 @@
+{
+  "name": "ipsamdicta",
+  "version": "1.0.0",
+  "description": "Parses a link header and returns paging information for each contained link.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErnaBeer/ipsamdicta.git"
+  },
+  "homepage": "https://github.com/ErnaBeer/ipsamdicta.git",
+  "dependencies": {
+    "xtend": "~4.0.1"
+  },
+  "devDependencies": {
+    "tape": "~1.0.3",
+    "tap": "~0.4.3"
+  },
+  "keywords": [
+    "parse",
+    "link",
+    "nemo",
+    "weblink",
+    "web",
+    "qui",
+    "quo"
+  ],
+  "author": "CordieWill",
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/ErnaBeer/ipsamdicta.git/issues"
+  }
+}
